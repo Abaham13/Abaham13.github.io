@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tu Nombre Completo | Portafolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Source Serif 4', Georgia, serif; }
+    h1, h2, h3, nav { font-family: 'Space Grotesk', Arial, sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 leading-relaxed">
+
+  <!-- Menú -->
+  <nav class="sticky top-0 z-10 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-4xl mx-auto px-6 py-3 flex flex-wrap gap-x-6 gap-y-1 text-sm font-medium">
+      <a href="#descripcion" class="hover:text-teal-700">Descripción</a>
+      <a href="#educacion" class="hover:text-teal-700">Educación</a>
+      <a href="#habilidades" class="hover:text-teal-700">Habilidades</a>
+      <a href="#proyectos" class="hover:text-teal-700">Proyectos</a>
+      <a href="#blogs" class="hover:text-teal-700">Blogs</a>
+    </div>
+  </nav>
+
+  <!-- 1 y 2: Nombre y puesto -->
+  <header class="bg-teal-800 text-white">
+    <div class="max-w-4xl mx-auto px-6 py-20">
+      <h1 class="text-4xl sm:text-6xl font-bold tracking-tight">Tu Nombre Completo</h1>
+      <p class="mt-4 text-xl text-teal-100">Puesto al que aspiras (ej. Desarrollador Web Junior)</p>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-12 space-y-16">
+
+    <!-- 3: Descripción -->
+    <section id="descripcion">
+      <h2 class="text-2xl font-bold mb-4 border-l-4 border-teal-700 pl-3">Descripción</h2>
+      <h3 class="font-bold mt-4">¿Quién soy?</h3>
+      <p>Escribe aquí quién eres, de dónde eres y qué te apasiona.</p>
+      <h3 class="font-bold mt-4">¿Qué puedo hacer?</h3>
+      <p>Explica qué tipo de trabajos o soluciones puedes desarrollar.</p>
+    </section>
+
+    <!-- 4: Educación -->
+    <section id="educacion">
+      <h2 class="text-2xl font-bold mb-4 border-l-4 border-teal-700 pl-3">Educación</h2>
+      <ul class="space-y-3">
+        <li>
+          <p class="font-bold">Nombre de la carrera</p>
+          <p class="text-slate-600">Institución, años (ej. 2022 - actualidad)</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 5: Habilidades -->
+    <section id="habilidades">
+      <h2 class="text-2xl font-bold mb-4 border-l-4 border-teal-700 pl-3">Habilidades</h2>
+      <h3 class="font-bold">Tecnologías</h3>
+      <div class="flex flex-wrap gap-2 mt-2 mb-6">
+        <span class="px-3 py-1 rounded-full bg-teal-100 text-teal-900 text-sm">HTML</span>
+        <span class="px-3 py-1 rounded-full bg-teal-100 text-teal-900 text-sm">CSS</span>
+        <span class="px-3 py-1 rounded-full bg-teal-100 text-teal-900 text-sm">JavaScript</span>
+        <span class="px-3 py-1 rounded-full bg-teal-100 text-teal-900 text-sm">SQL</span>
+      </div>
+      <h3 class="font-bold">Habilidades sociales</h3>
+      <div class="flex flex-wrap gap-2 mt-2">
+        <span class="px-3 py-1 rounded-full bg-amber-100 text-amber-900 text-sm">Trabajo en equipo</span>
+        <span class="px-3 py-1 rounded-full bg-amber-100 text-amber-900 text-sm">Comunicación</span>
+        <span class="px-3 py-1 rounded-full bg-amber-100 text-amber-900 text-sm">Resolución de problemas</span>
+      </div>
+    </section>
+
+    <!-- 6: Proyectos -->
+    <section id="proyectos">
+      <h2 class="text-2xl font-bold mb-4 border-l-4 border-teal-700 pl-3">Proyectos</h2>
+      <div class="grid sm:grid-cols-2 gap-4">
+        <a href="https://github.com/tu-usuario/proyecto1" class="block p-5 bg-white border border-slate-200 rounded-lg hover:border-teal-700">
+          <h3 class="font-bold">Proyecto 1</h3>
+          <p class="text-sm text-slate-600 mt-1">Breve descripción. Enlace al repositorio de la tarea 2.</p>
+        </a>
+        <a href="https://github.com/tu-usuario/proyecto2" class="block p-5 bg-white border border-slate-200 rounded-lg hover:border-teal-700">
+          <h3 class="font-bold">Proyecto 2</h3>
+          <p class="text-sm text-slate-600 mt-1">Breve descripción. Enlace al repositorio de la tarea 2.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- 7: Blogs -->
+    <section id="blogs">
+      <h2 class="text-2xl font-bold mb-4 border-l-4 border-teal-700 pl-3">Blogs</h2>
+      <article class="bg-white border border-slate-200 rounded-lg p-6 space-y-4">
+        <h3 class="text-xl font-bold">Nombre del proyecto (ej. Administración de base de datos)</h3>
+        <div><h4 class="font-bold">Descripción</h4><p>...</p></div>
+        <div><h4 class="font-bold">Requerimientos del cliente</h4><p>...</p></div>
+        <div><h4 class="font-bold">¿Cómo se diseñó la solución?</h4><p>...</p></div>
+        <div><h4 class="font-bold">¿Cómo se implementó la solución?</h4><p>...</p></div>
+        <div><h4 class="font-bold">¿Cuál fue el resultado?</h4><p>...</p></div>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-slate-200 py-6 text-center text-sm text-slate-500">
+    © 2026 Tu Nombre Completo
+  </footer>
+
+</body>
+</html>
